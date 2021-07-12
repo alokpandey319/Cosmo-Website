@@ -1,0 +1,446 @@
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0%;
+    background-color: #ffffff;
+    height: 100px;
+    z-index: 20;
+
+    
+}
+header a{
+    text-decoration: none;
+}
+.myFirst a{
+    font-size: 20px;
+    
+}
+.second a{
+    font-size: 20px;
+}
+#phone:hover{
+    background-color: rgb(167, 12, 43);
+    color: white;
+    border-radius: 8px;
+
+}
+#marker:hover{
+    background-color: rgb(167, 12, 43);
+    color: white;
+    border-radius: 8px;
+
+}
+
+#cus{
+    color: rgb(167, 12, 43);
+
+    
+    
+
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin: 0px;
+    
+}
+#img{
+    padding: 0px;
+    justify-content: center;
+
+}
+
+
+
+
+.dropdown{
+    
+  position:relative;
+  display: inline-block;
+  padding: 10px;
+  
+
+}
+.dropdown-content{
+    position: absolute;
+    display: none;
+    background-color: rgb(202, 191, 177);
+    border-radius: 5px;
+
+    
+}
+.dropdown-content p{
+    text-align: center;
+    padding: 10px;
+}
+
+.dropdown-content p:hover{
+    background-color: rgb(168, 43, 112);
+    color: rgb(255, 255, 255);
+}
+#buy{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    
+
+}
+.first a{
+    padding: 20px;
+}
+.second a{
+    padding: 20px;
+}
+.meta{
+    margin: 20px;
+    margin-top: 5px;
+    background-image: url("background2.jpg" );
+    height: 500px;
+
+    background-size: cover;
+    padding: 20px;
+}
+#meta1{
+    margin-top: ;
+    font-size: 60px;
+}
+#meta2{
+   
+    font-size: 30px;
+
+}
+#data1{
+    font-size: 50px;
+}
+#data2{
+color: rgb(99, 92, 92);
+font-size: 20px;
+
+}
+.mdata img{
+    margin-top: 20px;
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+}
+.paragraph{
+    margin-top: 80px;
+    padding: 20px;
+    font-size: 25px;
+}
+.main{
+    padding: 20px;
+    font-size: 50px;
+   
+}
+.main a{
+    text-decoration: none;
+}
+
+.btn{
+    background-color: rgb(180, 14, 14);
+    padding: 2vh 5vw;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    align-self: flex-start;
+    text-decoration: none;
+}
+.meta a{
+    padding: 20px;
+    text-decoration: none;
+}
+#rate{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(134, 128, 128);
+}
+.image1{
+    background-image: url("0121.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 300px;
+    font-size: 20px;
+}
+.image2{
+    background-image: url("0224.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 300px;
+    font-size: 20px;
+}
+.image3{
+    background-image: url("0325.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 300px;
+    font-size: 20px;
+    
+}
+.image4{
+    background-image: url("04.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 300px;
+    font-size: 20px;
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+}
+.smp{
+    display: none;
+}
+.image1:hover .smp{
+    display: block;
+    text-decoration: none
+
+}
+.sec{
+    display: none;
+}
+.image2:hover .sec{
+    display: block;
+    text-decoration: none
+}
+.min{
+    display: none;
+}
+.image3:hover .min{
+    display: block;
+    text-decoration: none
+}
+.deg{
+    display: none;
+  
+}
+.image4:hover .deg{
+    display: block;
+    text-decoration: none;
+}
+.sub{
+    padding: 30px;
+    display: flex;
+    margin-top: 30px;
+}
+#one{
+    padding: 20px;
+    color: rgb(233, 15, 15);
+}
+#two{
+    padding: 20px;
+}
+#three{
+    padding: 20px;
+}
+.demo{
+
+    font-size: 25px;
+}
+
+.null  {
+    display: flex ;
+
+}
+.point img{
+    height: 600px;
+    width: 700px;
+}
+.detail{
+    text-align: center;
+}
+
+
+
+.detail h1 {
+    font-size: 70px;
+}
+.detail p{
+    font-size: 30px;
+}
+.alldata{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+    
+}
+.all1 {
+background-image: url("face2.jpg");
+background-size: cover;
+height: 500px;
+width: 400px;
+font-size: 20px;
+}
+.all2 {
+background-image: url("face128.jpg");
+background-size: cover;
+height: 500px;
+width: 400px;
+font-size: 20px;
+}
+.all3 {
+    background-image: url("face3.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 400px;
+    font-size: 20px;
+}
+.nullChild{
+    background-color: rgb(156, 139, 62);
+    padding: 10px;
+}
+.nullChild h1{
+    font-size: 60px;
+}
+.nullChild p{
+    font-size: 25px;
+    
+}
+.nullChild a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(192, 28, 36);
+    font-size: 20px;
+}
+.all1 a{
+    display: none;
+    position: relative;
+    text-decoration: none;
+    background-color: rgb(192, 28, 36);
+    width: 100px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    
+}
+.all1{
+    overflow: hidden;
+}
+
+.all1 h1{
+    position: relative;
+    padding: 10px;
+    
+}
+.all1 p{
+    position: relative;
+    padding: 10px;
+}
+
+
+
+
+
+
+.relate{
+    margin-top: 200px;
+}
+
+.all1:hover a{
+    display: block;
+    animation-name: example;
+    animation-duration: 1s;
+
+
+
+}
+.all1:hover h1{
+    animation-name: example2;
+    animation-duration: 1s;
+
+
+}
+.all1:hover p{
+    animation-name: example3;
+    animation-duration: 1s;
+
+
+}
+@keyframes example {
+    /* 0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;} */
+    50%  {background-color:red; left:200px; top:200px;}
+    75%  {background-color:red; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  @keyframes example2 {
+    /* 0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;} */
+    /* 50%  {left:200px; top:200px;} */
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+  @keyframes example3 {
+    /* 0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;} */
+    /* 50%  {left:200px; top:200px;} */
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+  .Drive input{
+      padding: 20px;
+      margin-right: 4vw;
+      display: inline;
+  }
+  #sum{
+      background-color: #ff0000;
+      padding: 20px;
+  }
+  .Drive{
+      background: url("/cosmo/background120.jpg") no-repeat right center/cover;
+     
+      height: 90vh;
+      
+      
+  }
+  .lock{
+      display: flex;
+      align-items: center;
+      
+  }
+  .lock i{
+      margin: 10px;
+  }
+
+  .check{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .social_img a{
+      text-decoration: none;
+      font-size: 40px;
+      padding: 10px;
+  } 
+  .location a{
+      font-size: 20px;
+
+  }
+  .contact h1{
+      font-size: 40px;
+  }
+
+  .social_img a:hover{
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+  }
+      
+
+
+
+
+
+
+    
+
+
+
+
